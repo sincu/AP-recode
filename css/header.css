@@ -1,0 +1,128 @@
+.wrapper-0 {
+  background-color: #222121;
+  background-image: url(../img/tpHdrBg.png);
+  background-repeat: top repeat-x;
+}
+
+.header-container {
+
+  height: 87px;
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+
+  /*display: block;*/
+}
+
+.header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header-img {
+  margin-left: 5px;
+  flex: 1;
+  position: relative;
+}
+
+.header-nav {
+  font-size: 0.8em;
+  display: inline-flex;
+  flex: 5;
+
+}
+
+.header-nav-ul {
+  text-transform: uppercase;
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 35px;
+}
+
+.header-nav-ul li {
+  padding: 0 15px;
+}
+
+.header-nav-ul a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 20px 0 23px 0;
+}
+
+.header-nav-ul a:hover {
+  color: #d19600;
+
+}
+
+.header-nav > ul > li > ul > li > div > h6 {
+  font-size: 1em;
+}
+
+.header-nav-ul-main_link:hover {
+  background-image: url(http://www.ap.org/Content/images/icons/tpNvPointr.gif);
+
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.header-nav-ul-main_link:focus {
+  background-image: url(http://www.ap.org/Content/images/icons/tpNvPointr.gif);
+
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.test:hover {
+  background-image: url(http://www.ap.org/Content/images/icons/tpNvPointr.gif);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: -23px;
+}
+
+.header-nav-ul > li:hover > a {
+    color: #d19600;
+}
+
+.header-nav-ul a:focus {
+  color: #d19600;
+}
+
+.header-nav-ul-drop {
+  display: none;
+  margin: 24px 0 0 0;
+  padding: 25px 15px;
+  list-style-type: none;
+  position: absolute;
+  /*z-index: 1000;
+  overflow: hidden;*/
+}
+
+.header-nav-ul-drop li {
+  display: inline;
+  float: none;
+}
+
+.header-nav li:hover .header-nav-ul-drop {
+  display: block;
+  background: url("../img/tpNvPp_bg.png");
+}
+
+.header-nav-ul-drop-div {
+  height: 216px;
+  float: left;
+}
+
+.header-nav-ul-drop-div li {
+
+}
+
+
+.header-search {
+  margin-bottom: 21px;
+  flex: 2;
+}
