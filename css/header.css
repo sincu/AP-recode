@@ -75,12 +75,12 @@
   font-size: 1em;
 }
 
-.header-nav-ul-main_link:hover {
+/*.header-nav-ul-main_link:hover {
   background-image: url(http://www.ap.org/Content/images/icons/tpNvPointr.gif);
 
   background-repeat: no-repeat;
   background-position: center bottom;
-}
+}*/
 
 .header-nav-ul-main_link:focus {
   background-image: url(http://www.ap.org/Content/images/icons/tpNvPointr.gif);
@@ -89,7 +89,7 @@
   background-position: center bottom;
 }
 
-.test:hover {
+.wrapper > div.wrapper-0 > div > div > div.header-nav > ul > li:hover {
   background-image: url(http://www.ap.org/Content/images/icons/tpNvPointr.gif);
   background-repeat: no-repeat;
   background-position: center bottom;
