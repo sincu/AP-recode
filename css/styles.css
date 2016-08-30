@@ -17,7 +17,6 @@ body {
 }
 
 .sso {
-
   background-color: #000000;
   height: 27px;
   width: auto;
@@ -45,28 +44,16 @@ body {
   color: #b8b8b8;
 }
 
-.main_img {
-  /*display: block;
-  width: 100%;
-  height: 100px;*/
-}
-
 .main_img-img {
-
-
   margin-top: -20px;
   background-image: url("../img/APNews-homepage-banner-final_tcm28-21009.jpg");
-
   width: 100%;
-    height: 456px;
-
+  height: 456px;
 }
 
 .main_img-img-shadow {
   background: url("http://www.ap.org/Content/images/shades/mainImgShade.png");
   background-repeat: repeat-x;
-  /*background-color: red;*/
-  /*margin-top: -20px;*/
   width: 100%;
-    height: 456px;
+  height: 456px;
 }
